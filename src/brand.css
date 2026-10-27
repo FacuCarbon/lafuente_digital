@@ -1,0 +1,488 @@
+/* Colores extraídos de los archivos del club. Ver docs/BRANDING.md. */
+:root {
+  --brand-blue: #1360b3;
+  --brand-red: #d43f35;
+  --brand-violet: #8c4d6b;
+  --brand-white: #ffffff;
+  --navy: #103e7a;
+  --blue: var(--brand-blue);
+  --red: var(--brand-red);
+  --muted: #536b88;
+  --line: #dce4ef;
+  color: #18375e;
+  background: #f2f5fa;
+}
+
+.brand-logo {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: contain;
+  flex-shrink: 0;
+  border: 1px solid #ffffff66;
+}
+.brand > span:last-child {
+  font-size: 1.125rem;
+  font-weight: 650;
+}
+.brand b {
+  font-weight: 500;
+}
+.brand small {
+  color: #e0ebfb;
+}
+.sidebar {
+  background: linear-gradient(167deg, #1255a3 0%, #0b397a 70%, #0b3067 100%);
+  border-right: 1px solid #0d4388;
+}
+.club-label {
+  color: #cadcf5;
+  border-color: #ffffff26;
+}
+.club-dot {
+  background: #ff8271;
+}
+.nav-label {
+  color: #adcbf0;
+}
+.nav-item {
+  color: #deebff;
+}
+.nav-item:hover {
+  background: #ffffff16;
+}
+.nav-item.active {
+  color: white;
+  background: #ffffff21;
+}
+.nav-item.active::before {
+  height: 29px;
+  width: 4px;
+  background: #f25547;
+}
+.nav-active-dot {
+  background: #ff8a78;
+}
+.community-card {
+  background: #08285c77;
+  border-color: #ffffff20;
+}
+.community-card svg {
+  color: #ff9d8a;
+}
+.community-card small {
+  color: #bed1ec;
+}
+.community-card p {
+  color: white;
+}
+.sidebar-user small {
+  color: #c3d6f1;
+}
+.sidebar-user .user-avatar {
+  background: #ffffff24;
+  color: white;
+}
+.sidebar-user .icon-button {
+  color: #d4e5fd;
+}
+.topbar {
+  border-bottom-color: #d4dfed;
+}
+.breadcrumb {
+  color: #647c9b;
+}
+.breadcrumb strong {
+  color: #1d477a;
+}
+.today {
+  color: #5b7290;
+}
+.demo-bar {
+  background: #e5edfa;
+  border-color: #cbdaf0;
+  color: #3d5c87;
+}
+.demo-bar .text-button {
+  color: #204e8d;
+}
+.demo-bar select {
+  border-color: #b6cbe6;
+  color: #284c7d;
+}
+.user-avatar {
+  background: #dae8fa;
+  color: #1a5495;
+}
+.eyebrow {
+  color: #526e92;
+}
+.season-label {
+  color: #315c92;
+  border-color: #cad8ea;
+}
+.wave {
+  color: #d34838;
+}
+
+.club-banner {
+  background: white;
+  border: 1px solid #cbd8ea;
+  border-radius: 13px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 18px #143c7210;
+}
+.club-banner > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.club-banner-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 22px 29px;
+  border-top: 3px solid var(--brand-red);
+}
+.club-banner-bar h2 {
+  font-size: 1.4375rem;
+  color: #104887;
+  letter-spacing: -0.6px;
+}
+.club-banner-bar p {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #536b88;
+}
+.club-banner-bar .button {
+  flex-shrink: 0;
+}
+.button.primary {
+  background: var(--brand-blue);
+  border-color: var(--brand-blue);
+  color: white;
+}
+.button.primary:hover {
+  background: #0e4f98;
+  border-color: #0e4f98;
+}
+.button {
+  color: #25578f;
+  border-color: #c6d6e9;
+}
+.button:hover {
+  background: #eaf1fc;
+}
+.text-button {
+  color: #1459a6;
+}
+.icon-button {
+  color: #4e719c;
+}
+.panel {
+  border-color: #d7e1ee;
+  box-shadow: 0 2px 4px #15396303;
+}
+.stat {
+  border-top: 3px solid var(--brand-blue);
+}
+.stat > strong {
+  color: #144d8d;
+}
+.stat > p {
+  color: #294d78;
+  font-weight: 600;
+}
+.stat > small {
+  color: #647a96;
+}
+.stat-icon {
+  background: #e4effc;
+  color: #1764b4;
+}
+.stat:nth-child(2) {
+  border-top-color: var(--brand-red);
+}
+.stat:nth-child(2) .stat-icon {
+  background: #fce9e6;
+  color: #b7372e;
+}
+.stat:nth-child(3) {
+  border-top-color: var(--brand-violet);
+}
+.stat:nth-child(3) .stat-icon {
+  background: #f2e8ef;
+  color: #824662;
+}
+.stat:nth-child(4) {
+  border-top-color: #254f8b;
+}
+.panel-heading .eyebrow {
+  color: #526e92;
+}
+.panel-heading h2 {
+  color: #173f71;
+}
+.activity-row {
+  border-top-color: #e1e8f3;
+}
+.activity-row:hover {
+  background: #f5f8fe;
+}
+.activity-row strong {
+  color: #1f4776;
+}
+.activity-row small {
+  color: #5c7390;
+}
+.activity-initial {
+  background: #e5effd;
+  color: #1761b2;
+}
+.initial-1 {
+  background: #f4e7ee;
+  color: #8c4d6b;
+}
+.initial-2 {
+  background: #e6edf9;
+  color: #244b85;
+}
+.initial-3 {
+  background: #fbe7e3;
+  color: #a43532;
+}
+.badge {
+  color: #4b6687;
+  background: #e8eef7;
+}
+.badge.green {
+  color: #2f694b;
+  background: #e4f2e9;
+}
+.badge.green::before {
+  background: #34845a;
+}
+.badge.blue {
+  color: #1758a2;
+  background: #e3edfb;
+}
+.badge.amber {
+  color: #82571e;
+  background: #fff1d7;
+}
+.next-match .panel-heading > svg {
+  color: #1e63b0;
+}
+.match-club-logo {
+  display: block;
+  margin: 7px auto 15px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.next-match h3 {
+  color: #16447f;
+}
+.next-match > .muted {
+  color: #536e90;
+}
+.next-date {
+  color: #45668f;
+}
+.quick-links svg {
+  color: #1764b4;
+}
+.quick-links strong {
+  color: #244d7d;
+}
+.quick-links small {
+  color: #617a99;
+}
+.quick-links button:hover {
+  background: #eaf1fc;
+}
+.care-card {
+  background: #fff0eb;
+  border-color: #edc6bd;
+  color: #9c382d;
+}
+.care-card h2 {
+  color: #a2372d;
+}
+.care-card > svg {
+  color: #d04436;
+}
+.care-card p {
+  color: #875349;
+}
+.care-card .text-button {
+  color: #aa392d;
+}
+.activity-art {
+  background: var(--activity-color, #1360b3);
+}
+.activity-art::after {
+  border-color: #ffffff66;
+  box-shadow:
+    0 0 0 35px #ffffff12,
+    0 0 0 70px #ffffff0b;
+}
+.activity-symbol {
+  color: white;
+  opacity: 0.82;
+}
+.art-label {
+  color: white;
+  opacity: 0.95;
+}
+.activity-content h2 {
+  color: #194b85;
+}
+.activity-content .flex-between small {
+  color: #536b88;
+}
+.activity-bottom > span {
+  color: #5d7390;
+}
+.notice {
+  background: #e7f0fc;
+  border-color: #c8dbf3;
+  color: #315e94;
+}
+.notice.subtle {
+  background: #eaf0f8;
+  border-color: #d6e1ef;
+  color: #48698e;
+}
+.group-option.selected {
+  background: #e5effe;
+  border-color: #79a2d5;
+  box-shadow: inset 3px 0 0 var(--brand-blue);
+}
+.group-option .eyebrow {
+  color: #3a669d;
+}
+.group-option small {
+  color: #5c7595;
+}
+.avatar {
+  color: #2360a4;
+  background: #e6eefb;
+}
+.button.present {
+  color: #216640;
+  background: #e1f1e6;
+  border-color: #b9dcc7;
+}
+.field > span {
+  color: #3a5c85;
+}
+input,
+select,
+textarea {
+  border-color: #bdcfe5;
+  color: #264d7a;
+}
+input[type="checkbox"] {
+  accent-color: var(--brand-blue);
+}
+th {
+  background: #edf3fc;
+  color: #45688f;
+}
+.panel-footer {
+  color: #5c7391;
+}
+.chart-bar {
+  background: #2168b4;
+}
+.chart-bar.coral {
+  background: var(--brand-red);
+}
+.big-amount {
+  color: #174d90;
+}
+.fee-lines small {
+  color: #ac3e32;
+}
+.social-note {
+  color: #295b91;
+}
+.rental-amount {
+  color: #174f91;
+}
+.tile-icon {
+  color: #1b60ac;
+  background: #e3edfb;
+}
+.page-footer {
+  color: #627b9b;
+  border-color: #cfdded;
+}
+.footer-heart {
+  color: var(--brand-red);
+}
+.toast {
+  background: #124b92;
+}
+.login-story {
+  background: linear-gradient(145deg, #1360b3, #173b79 70%, #743b60);
+}
+.login-story .eyebrow {
+  color: #ffbaaa;
+}
+.login-story p {
+  color: #dbe8fb;
+}
+.login-story > span {
+  color: #c7daf5;
+}
+
+@media (max-width: 900px) {
+  .brand-logo {
+    width: 41px;
+    height: 41px;
+  }
+  .sidebar .brand > span:last-child {
+    font-size: 1rem;
+  }
+  .club-banner-bar {
+    padding: 19px 22px;
+  }
+  .club-banner-bar h2 {
+    font-size: 1.3125rem;
+  }
+}
+@media (max-width: 650px) {
+  .sidebar .brand > span:last-child {
+    font-size: 1.0625rem;
+  }
+  .brand-logo {
+    width: 46px;
+    height: 46px;
+  }
+  .club-banner {
+    border-radius: 10px;
+    margin-bottom: 19px;
+  }
+  .club-banner-bar {
+    padding: 18px;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .club-banner-bar h2 {
+    font-size: 1.3125rem;
+  }
+  .club-banner-bar p {
+    font-size: 1rem;
+  }
+  .club-banner-bar .button {
+    min-height: 37px;
+    font-size: 1rem;
+  }
+  .login-story .brand {
+    display: flex;
+  }
+}

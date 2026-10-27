@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+playwright-report/
+test-results/
+*.tsbuildinfo
+.supabase/
+
+# Documentación y referencias locales
+/docs/
+/ejemplos/
+*.md
